@@ -5,11 +5,11 @@ Time Complixity:
 
           Build_Heap             O(N)
           
-          Heapify
+          Heapify                O(Log(N))
           
           Heap_Insert            O(Log(N))
           
-          Heap_Delete            
+          Heap_Delete            O(Log(N))
           
           Heap_Extract_Min       O(Log(N))
           
