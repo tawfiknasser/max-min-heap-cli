@@ -298,11 +298,20 @@ void Max_Min_Heap::Heap_Extract_Min()
     Heap_Delete(min_index);
 }
 
-void Max_Min_Heap::validate_index(const int index)
+void Max_Min_Heap::Print_Max()
 {
-    assert(index < heap_root->size() && index >= 0 && "invalid index");
+    std::cout << heap_root->at(0);
 }
-
 void Max_Min_Heap::Heap_sort()
 {
+    Max_Min_Heap *max_min_heap = new Max_Min_Heap();
+    max_min_heap->Build_Heap(*heap_root);
+
+    while (max_min_heap->get_heap_size() > 0)
+    {
+        max_min_heap->Print_Max();
+        std::cout << ',';
+        max_min_heap->Heap_Extract_Max();
+    }
+    std::cout << "\n";
 }

@@ -23,6 +23,7 @@ public:
 
     void Heap_sort();
     void Print();
+    void Print_Max();
 
 private:
     /**
