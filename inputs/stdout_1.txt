@@ -1,0 +1,229 @@
+Welcome to Max-Min-Heap CLI!!
+Enter the file path for heap values: 
+
+Printing heap: 
+1,2,3,4,5,6,
+
+Printing heap: 
+6,3,1,4,5,2,
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+Insert the key you want to add: 
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+
+Printing heap: 
+50,3,1,4,5,2,6,
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+Insert the key you want to add: 
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+
+Printing heap: 
+99,3,1,50,5,2,6,4,
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+Insert the key you want to add: 
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+
+Printing heap: 
+99,3,1,50,5,2,6,4,22,
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+Insert the key you want to add: 
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+
+Printing heap: 
+99,3,1,50,33,2,6,4,22,5,
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+Insert the key you want to add: 
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+
+Printing heap: 
+201,3,1,50,99,2,6,4,22,5,33,
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+Insert the index you want to delete: 
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+
+Printing heap: 
+201,3,2,50,99,33,6,4,22,5,
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+Extracting max 
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+
+Printing heap: 
+99,3,2,50,5,33,6,4,22,
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+Extracting max 
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+
+Printing heap: 
+50,3,2,22,5,33,6,4,
+
+Please select an option: 
+(1) for heap insert 
+(2) for heap delete 
+(3) for heap extract max 
+(4) for heap extract min 
+(5) for heap sort 
+(6) for printing the heap 
+(7) for printing heap size 
+(8) for building new heap 
+(9) exit program 
+
+Good Bye!

@@ -4,7 +4,7 @@
 #include <string>
 #include "max_min_heap.h"
 
-int main(int argc, char *argv[])
+int main()
 {
     std::vector<int> inputs;
     std::string file_path;
@@ -23,7 +23,9 @@ int main(int argc, char *argv[])
 
         if (!streamed_file.is_open())
         {
-            std::cout << "Failed to open this file! Try Again!" << std::endl;
+            std::cout << "Failed to open this file! Try Again!\n"
+                      << std::endl;
+            std::cout << file_path;
             continue;
         }
 
@@ -65,9 +67,11 @@ int main(int argc, char *argv[])
                 max_min_heap->Heap_Delete(tmp_single_value);
                 break;
             case '3':
+                std::cout << "Extracting max \n";
                 max_min_heap->Heap_Extract_Max();
                 break;
             case '4':
+                std::cout << "Extracting min \n";
                 max_min_heap->Heap_Extract_Min();
                 break;
             case '5':
