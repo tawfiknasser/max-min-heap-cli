@@ -310,8 +310,10 @@ void Max_Min_Heap::Print_Max()
 void Max_Min_Heap::Heap_sort()
 {
     Max_Min_Heap *max_min_heap = new Max_Min_Heap();
-    max_min_heap->Build_Heap(*heap_root);
-   
+    std::vector<int> new_heap_root(*heap_root);
+
+    max_min_heap->Build_Heap(new_heap_root);
+
     while (max_min_heap->get_heap_size() > 0)
     {
         max_min_heap->Print_Max();
