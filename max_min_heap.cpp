@@ -74,9 +74,7 @@ void Max_Min_Heap::Build_Heap(std::vector<int> &heap)
 {
     heap_root = &heap;
     int heap_size = heap.size();
-    Print();
 
-    std::swap((*heap_root)[1], (*heap_root)[2]);
 
     for (auto i = std::floor(heap_size / 2) - 1; i >= 0; i--)
     {
