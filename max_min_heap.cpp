@@ -265,6 +265,8 @@ void Max_Min_Heap::Heap_Delete(const int index)
 {
     validate_index(index);
     std::swap(heap_root->at(heap_root->size() - 1), heap_root->at(index));
+    std::cout << "deleting: ";
+    std::cout << heap_root->at(heap_root->size() - 1) << std::endl;
     heap_root->pop_back();
     Heapify(index);
 }
