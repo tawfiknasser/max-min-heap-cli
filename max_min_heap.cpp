@@ -28,7 +28,7 @@ void Max_Min_Heap::Heapify(int index)
     if (is_max_level(index))
     {
         swap_index = get_largest_child_or_grandchild(index);
-        if (has_parent(index) && has_parent(get_parent(index)) && get_grandparent(swap_index) == index)
+        if (has_parent(swap_index) && has_parent(get_parent(swap_index)) && get_grandparent(swap_index) == index)
         {
             if (heap_root->at(swap_index) > heap_root->at(index))
             {
@@ -48,7 +48,7 @@ void Max_Min_Heap::Heapify(int index)
     else
     {
         swap_index = get_smallest_child_or_grandchild(index);
-        if (has_parent(index) && has_parent(get_parent(index)) && get_grandparent(swap_index) == index)
+        if (has_parent(swap_index) && has_parent(get_parent(swap_index)) && get_grandparent(swap_index) == index)
         {
             if (heap_root->at(swap_index) < heap_root->at(index))
             {
